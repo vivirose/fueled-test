@@ -5,7 +5,7 @@ Here is my solution to the coding challenge.
 
 As expected, I didn't manage to finish it in 4 hours, so I'm submitting the progress I made up until this point.
 
-I unfortunately did not have time to aniamte the markers or the clock, or to make the design responsive, and some elements are not placed as nicely as I'd like.
+I unfortunately did not have time to animate the markers or the clock, or to make the design responsive, and some elements are not placed as nicely as I'd like.
 
 What I found most interesting and challenging about this projecy was working with complex SVGs.
 The first thing I did was adding the markers manually in a separate Figma file, then exporting the entire map with the markers in place, so I wouldn't have to position them using CSS.
