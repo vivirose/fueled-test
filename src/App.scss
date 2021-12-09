@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "UnitedItalic";
+  src: url("./Fonts/UnitedItalicSmCdMd.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "UnitedSans";
+  src: url("./Fonts/UnitedSansCdBd.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  background-color: #ae0000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Overlay_right{
+  background-color: rgba(87, 0, 0, 0.1);
+  position: absolute;
+  left: 62.22%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  animation: slide-in-right 1s;
+}
+
+.Overlay_left{
+  background-color: rgba(87, 0, 0, 0.1);
+  position: absolute;
+  left: 0%;
+  right: 88.4%;
+  top: 0%;
+  bottom: 0%;
+  animation: slide-in-left 1.2s;
+}
+
+.Map {
+  animation: fade-in 3s ease;
+  position: relative;
+  bottom: 100px;
+  height: 70%;
+}
+
+.Time {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(2, 125px);
+  column-gap: 20px;
+
+  .Time_city_hour {
+    grid-area: 2 / 2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    animation: slide-up 4s;
+
+    .Time_city {
+      display: flex;
+      column-gap: 10px;
+      font-family: "UnitedItalic", sans-serif;
+      font-weight: 100;
+      font-size: 20px;
+      h2 {
+      line-height: 40px;
+      margin: 0px;
+      padding: 0;}
+    }
+
+    .Time_hour {
+      font-family: "UnitedSans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 80px;
+      line-height: 80px;
+      margin: 0;
+    }
+  }
+  .Time_clock {
+    grid-area: 1 / 1 / 3 / 2;
+    animation: slide-up 2s;
+    position: relative;
+    top: 45px;
+
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+

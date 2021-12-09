@@ -1,0 +1,20 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29 0H0V29H29V0Z" fill="#035ABC"/>
+<path d="M16 0H0V16H16V0Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.51849H16V9.48146H0V6.51849Z" fill="#AE0000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.07407 0H5.62963V3.55556L2.07407 0ZM3.55556 5.62963H0V2.07407L3.55556 5.62963Z" fill="#035ABC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H0.888889L5.62963 4.74074V5.62963H4.74074L0 0.888889V0Z" fill="#AE0000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.07407 16H5.62963V12.4444L2.07407 16ZM3.55556 10.3704H0V13.9259L3.55556 10.3704Z" fill="#035ABC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 16H0.888889L5.62963 11.2593V10.3704H4.74074L0 15.1111V16Z" fill="#AE0000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9259 0H10.3704V3.55556L13.9259 0ZM12.4444 5.62963H16V2.07407L12.4444 5.62963Z" fill="#035ABC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0H15.1111L10.3704 4.74074V5.62963H11.2593L16 0.888889V0Z" fill="#AE0000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9259 16H10.3704V12.4444L13.9259 16ZM12.4444 10.3704H16V13.9259L12.4444 10.3704Z" fill="#035ABC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 16H15.1111L10.3704 11.2593V10.3704H11.2593L16 15.1111V16Z" fill="#AE0000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.48151 0L9.48151 16H6.51854L6.51854 0L9.48151 0Z" fill="#AE0000"/>
+<rect x="5" y="22.8284" width="4" height="4" transform="rotate(-45 5 22.8284)" fill="white"/>
+<rect x="21" y="23.4142" width="2" height="2" transform="rotate(-45 21 23.4142)" fill="white"/>
+<rect x="25" y="9.41418" width="2" height="2" transform="rotate(-45 25 9.41418)" fill="white"/>
+<rect x="23.125" y="16.625" width="1.5" height="1.5" transform="rotate(-45 23.125 16.625)" fill="white"/>
+<rect x="18" y="9.41418" width="2" height="2" transform="rotate(-45 18 9.41418)" fill="white"/>
+<rect x="21" y="3.41418" width="2" height="2" transform="rotate(-45 21 3.41418)" fill="white"/>
+</svg>

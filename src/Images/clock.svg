@@ -1,0 +1,12 @@
+<svg width="180" height="180" viewBox="0 0 231 232" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+<g id="clock 1" clip-path="url(#clip0_6_2)">
+<path id="hoursHand" fill-rule="evenodd" clip-rule="evenodd" d="M115.502 0L0.000244141 115.6L115.502 231.199L231 115.601L115.502 0Z" fill="white"/>
+<path id="minutesHand" d="M109 105H125L125 41H109V105Z" fill="#AE0000"/>
+<path id="Vector" d="M111.343 103.202L126.798 107.343L137.151 68.706L121.696 64.5649L111.343 103.202Z" fill="#AE0000"/>
+</g>
+<defs>
+<clipPath id="clip0_6_2">
+<rect width="231" height="232" fill="white"/>
+</clipPath>
+</defs>
+</svg>
